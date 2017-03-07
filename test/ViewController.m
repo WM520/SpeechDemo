@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "THSpeechController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    self.view.backgroundColor = [UIColor redColor];
+    THSpeechController *th = [THSpeechController speechcontroller];
+    [th beginConversation];
+    [self.view addSubview:th.speechView];
+    
 }
 
 
