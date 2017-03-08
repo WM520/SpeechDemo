@@ -15,6 +15,10 @@
 		81696F251E6D3C1E00F1CC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81696F231E6D3C1E00F1CC3F /* LaunchScreen.storyboard */; };
 		81696F301E6D3C1E00F1CC3F /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81696F2F1E6D3C1E00F1CC3F /* testTests.m */; };
 		81696F3B1E6D3C1E00F1CC3F /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81696F3A1E6D3C1E00F1CC3F /* testUITests.m */; };
+		817830031E6F99BE007101B1 /* THBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 817830011E6F99BE007101B1 /* THBubbleCell.m */; };
+		817830041E6F99BE007101B1 /* THBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817830021E6F99BE007101B1 /* THBubbleCell.xib */; };
+		817830081E6FA0ED007101B1 /* THBubbleCellLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 817830061E6FA0ED007101B1 /* THBubbleCellLeft.m */; };
+		817830091E6FA0ED007101B1 /* THBubbleCellLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817830071E6FA0ED007101B1 /* THBubbleCellLeft.xib */; };
 		817B90331E6D5EF000896408 /* THSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817B90321E6D5EF000896408 /* THSpeechController.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,12 @@
 		81696F361E6D3C1E00F1CC3F /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81696F3A1E6D3C1E00F1CC3F /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		81696F3C1E6D3C1E00F1CC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817830001E6F99BE007101B1 /* THBubbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBubbleCell.h; sourceTree = "<group>"; };
+		817830011E6F99BE007101B1 /* THBubbleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBubbleCell.m; sourceTree = "<group>"; };
+		817830021E6F99BE007101B1 /* THBubbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THBubbleCell.xib; sourceTree = "<group>"; };
+		817830051E6FA0ED007101B1 /* THBubbleCellLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBubbleCellLeft.h; sourceTree = "<group>"; };
+		817830061E6FA0ED007101B1 /* THBubbleCellLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBubbleCellLeft.m; sourceTree = "<group>"; };
+		817830071E6FA0ED007101B1 /* THBubbleCellLeft.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THBubbleCellLeft.xib; sourceTree = "<group>"; };
 		817B90311E6D5EF000896408 /* THSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSpeechController.h; sourceTree = "<group>"; };
 		817B90321E6D5EF000896408 /* THSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSpeechController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +118,12 @@
 				81696F191E6D3C1E00F1CC3F /* AppDelegate.m */,
 				81696F1B1E6D3C1E00F1CC3F /* ViewController.h */,
 				81696F1C1E6D3C1E00F1CC3F /* ViewController.m */,
+				817830001E6F99BE007101B1 /* THBubbleCell.h */,
+				817830011E6F99BE007101B1 /* THBubbleCell.m */,
+				817830021E6F99BE007101B1 /* THBubbleCell.xib */,
+				817830051E6FA0ED007101B1 /* THBubbleCellLeft.h */,
+				817830061E6FA0ED007101B1 /* THBubbleCellLeft.m */,
+				817830071E6FA0ED007101B1 /* THBubbleCellLeft.xib */,
 				817B90311E6D5EF000896408 /* THSpeechController.h */,
 				817B90321E6D5EF000896408 /* THSpeechController.m */,
 				81696F1E1E6D3C1E00F1CC3F /* Main.storyboard */,
@@ -255,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81696F251E6D3C1E00F1CC3F /* LaunchScreen.storyboard in Resources */,
+				817830041E6F99BE007101B1 /* THBubbleCell.xib in Resources */,
 				81696F221E6D3C1E00F1CC3F /* Assets.xcassets in Resources */,
+				817830091E6FA0ED007101B1 /* THBubbleCellLeft.xib in Resources */,
 				81696F201E6D3C1E00F1CC3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81696F1D1E6D3C1E00F1CC3F /* ViewController.m in Sources */,
+				817830031E6F99BE007101B1 /* THBubbleCell.m in Sources */,
+				817830081E6FA0ED007101B1 /* THBubbleCellLeft.m in Sources */,
 				81696F1A1E6D3C1E00F1CC3F /* AppDelegate.m in Sources */,
 				81696F171E6D3C1E00F1CC3F /* main.m in Sources */,
 				817B90331E6D5EF000896408 /* THSpeechController.m in Sources */,
@@ -431,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J7FX34AJN3;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J7FX34AJN3;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

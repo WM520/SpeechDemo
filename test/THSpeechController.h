@@ -15,7 +15,6 @@ typedef void(^reload)();
 @interface THSpeechController : NSObject
 
 @property (nonatomic, strong, readonly) AVSpeechSynthesizer * synthesizer;
-@property (strong, nonatomic, readonly) UIView * speechView;
 /**
  * 初始化
  */

@@ -14,7 +14,6 @@
 @property (strong, nonatomic) AVSpeechSynthesizer * synthesizer;
 @property (strong, nonatomic) NSArray * voices;
 @property (strong, nonatomic) NSArray * speechStrings;
-@property (strong, nonatomic) UIView * speechView;
 
 @end
 
@@ -33,8 +32,6 @@
         _voices = @[[AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"],
                     [AVSpeechSynthesisVoice voiceWithLanguage:@"en-GB"]];
         _speechStrings = [self buildSpeechStrings];
-        _speechView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
-//        _speechView.backgroundColor = [UIColor redColor];
     }
     return self;
 }
@@ -56,10 +53,6 @@
         utterance.pitchMultiplier = 0.8f;
         utterance.postUtteranceDelay = 0.1f;
         [self.synthesizer speakUtterance:utterance];
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0 + 30 * i, [UIScreen mainScreen].bounds.size.width, 30)];
-        label.text = self.speechStrings[i];
-        label.textColor = [UIColor redColor];
-        [self.speechView addSubview:label];
     }
 }
 
